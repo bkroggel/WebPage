@@ -55,6 +55,16 @@ $(document).ready(function(){
       slideout.close();
     });
 
+    document.querySelector('.js-slideout-close-section_1').
+      addEventListener('click', function() {
+      slideout.close();
+    });
+
+    document.querySelector('.js-slideout-close-section_2').
+      addEventListener('click', function() {
+      slideout.close();
+    });
+
 
   // end document ready
 });
