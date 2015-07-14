@@ -29,10 +29,18 @@
   <!-- slider menu -->
   <nav id="menu" class="slide--menu">
     <div class="slide--section section-head">
-      <div class="slide--logo"></div>
+      <a class="slide--logo" href="#index"></a>
       <p>convergence in a complex world<p>
     </div>
     <hr>
+    <div class="slide--section">
+      <h3 class="section--title">Caption</h3>
+      <ul class="section--list js-slideout-close">
+        <li><a href="#about" class="js-slideout-close">About</a></li>
+        <li><a href="">Content</a></li>
+        <li><a href="">Content</a></li>
+      </ul>
+    </div>
     <div class="slide--section">
       <h3 class="section--title">Caption</h3>
       <ul class="section--list">
@@ -46,7 +54,7 @@
   
   <main id="panel"> <!-- main content / wird benötigt um das slider menu ordnungsgemäß aufzubauen; weitere Informationen unter https://github.com/mango/slideout -->
   
-  <div class="header">
+  <div class="header" id="index">
     <button class="js-slideout-toggle hidden-md hidden-lg"><span class="icon-menu"></span></button>
     <div class="cbp-af-header hidden-sm hidden-xs">
       <div class="cbp-af-inner">

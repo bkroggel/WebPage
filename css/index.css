@@ -27,12 +27,14 @@
   line-height: 3em;
   color: white;
   text-decoration: none;
+  font-weight: 100;
 }
 
 .slide--menu .section-head p {
 text-transform: uppercase;
 color: rgb(155, 155, 155);
 font-size: 0.8em;
+font-weight: 200;
 }
 
 
@@ -235,8 +237,9 @@ li.active a {
   padding-left: 15px;
 }
 
-.slide--menu .slide--logo {
+.slide--menu a.slide--logo {
   background: url(../img/logo.png);
+  display: block;
   background-size: cover;
   width: 80px;
   height: 32px;
@@ -255,6 +258,8 @@ li.active a {
   text-transform: uppercase;
   font-size: 0.8em;
   color: rgba(255, 255, 255, 0.2);
+  font-weight: 200;
+  margin-top: 30px;
 }
 
 .section--list {
