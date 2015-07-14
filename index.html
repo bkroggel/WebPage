@@ -9,6 +9,7 @@
   <!-- latest compiled and minified Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <!-- CSS-Styles -->
+  <link rel="stylesheet" type="text/css" href="css/entypo.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
 
   <!-- jQuery for Bootstrap -->
@@ -16,25 +17,58 @@
   <!-- Latest compiled and minified Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <!-- JavaScript -->
-  <script type="text/javascript" href="js/index.js"></script>
+  <script type="text/javascript" src="js/slideout.min.js"></script>
+  <script type="text/javascript" src="js/classie.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".header">
   <!-- 
   ================================================ Navigation Bar ==============================================
    -->
-  <nav>
-    <!-- hier kommt die Navigationbar rein -->
+  <!-- slider menu -->
+  <nav id="menu">
+    <header>
+      
+    </header>
   </nav>
-  <!-- 
-  ==================================================== Header ==================================================
-   -->
-   <div class="header">
-     
-   </div>
+  <!-- /slider menu -->
+  
+  <main id="panel"> <!-- main content / wird benötigt um das slider menu ordnungsgemäß aufzubauen; weitere Informationen unter https://github.com/mango/slideout -->
+  
+  <div class="header">
+    <button class="js-slideout-toggle hidden-md hidden-lg"><span class="icon-menu"></span></button>
+    <div class="cbp-af-header hidden-sm hidden-xs">
+      <div class="cbp-af-inner">
+        <div class="logo"></div>
+        <nav id="navigationbar" role="navigation" class="nav" >
+          <ul>
+            <li><a href="#about">Platzhalter_1</a></li>
+            <li><a href="#">Platzhalter_2</a><li>
+            <li><a href="#">Platzhalter_3</a><li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div> <!-- cbp-af-inner -->
+    </div> <!-- /cbp-af-header -->
+  </div><!-- /header -->
+
+  
+
+
    <!-- 
   ============================================= About the Conference ===========================================
    -->
-   <div class="about">
+   <div class="about" id="about"> <!-- id nur zu versuchszwecken -->
      
    </div>
    <!-- 
@@ -73,5 +107,6 @@
    <footer>
      
    </footer>
+  </main> <!-- /main content -->
 </body>
 </html>
