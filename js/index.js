@@ -50,6 +50,11 @@ $(document).ready(function(){
       slideout.toggle();
     });
 
+    document.querySelector('.js-slideout-close').
+      addEventListener('click', function() {
+      slideout.close();
+    });
+
 
   // end document ready
 });

@@ -8,7 +8,7 @@
  * Summary:
  *
  *  0. ELEMENT
- *    - 0.1. TYPE ELEMENT
+ *    - 0.1. FONTS
  *    - 0.2. TYPE ELEMENT
  *  1. HEADER
  *    - 1.1. NAVIGATIONBAR
@@ -21,6 +21,21 @@
 
 /* 0.1. TYPE ELEMENT
    ========================================================================== */
+
+
+.section--list a {
+  line-height: 3em;
+  color: white;
+  text-decoration: none;
+}
+
+.slide--menu .section-head p {
+text-transform: uppercase;
+color: rgb(155, 155, 155);
+font-size: 0.8em;
+}
+
+
 
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
@@ -160,6 +175,10 @@ li.active a {
   line-height: 28px !important;
 }
 
+.dropdown-menu>li>a:hover {
+  transition: background-color 0.5s;
+}
+
 .dropdown {
   line-height: 0px;
 }
@@ -212,14 +231,35 @@ li.active a {
  display: block;
 }
 
-#menu header {
+.slide--section {
+  padding-left: 15px;
+}
+
+.slide--menu .slide--logo {
   background: url(../img/logo.png);
   background-size: cover;
   width: 80px;
   height: 32px;
-  margin-left: 20px;
   margin-top: 20px;
+  margin-bottom: 5px;
+}
 
+.slide--menu hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section--title {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.section--list {
+  list-style: none;
+  padding-left: 0;
 }
 
 /* 1.2. HEADER
@@ -238,7 +278,7 @@ li.active a {
 
 .icon-menu {
   font-size: 3em;
-  color: black;
+  color: rgb(87, 88, 91);
 }
 
 /* zu versuchszwecken, kann im Produktivumfeld entfernt werden */
