@@ -8,11 +8,11 @@
  * Summary:
  *
  *  0. ELEMENT
- *    - 0.1. TYPE ELEMENT
+ *    - 0.1. FONTS
  *    - 0.2. TYPE ELEMENT
- *  1. ELEMENT
- *    - 1.1. TYPE ELEMENT
- *    - 1.2. TYPE ELEMENT
+ *  1. HEADER
+ *    - 1.1. NAVIGATIONBAR
+ *    - 1.2. HEADER
  */
 
 /* ==========================================================================
@@ -22,5 +22,271 @@
 /* 0.1. TYPE ELEMENT
    ========================================================================== */
 
+
+.section--list a {
+  line-height: 3em;
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.slide--menu .section-head p {
+text-transform: uppercase;
+color: rgb(155, 155, 155);
+font-size: 0.8em;
+font-weight: 200;
+}
+
+
+
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
+
+/* ==========================================================================
+   1. HEADER
+   ========================================================================== */
+
+/* 1.1. NAVIGATIONBAR
+   ========================================================================== */
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cbp-af-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+  z-index: 10000;
+  height: 230px;
+  /*overflow: hidden;*/
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
+  -webkit-transition: background .3s;
+  -moz-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+
+.cbp-af-header .cbp-af-inner {
+  width: 90%;
+  max-width: 69em;
+  margin: 0 auto;
+  padding: 0 1.875em;
+}
+
+.cbp-af-header nav,
+.cbp-af-header nav li {
+  display: inline-block;
+  position: relative;
+}
+
+.cbp-af-header nav ul li ul li {
+  width: 100%;
+}
+
+.cbp-af-header nav ul li ul li a {
+  margin: 0;
+}
+
+.cbp-af-header nav ul {
+  right: 0;
+  left: auto;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-top: 10px;
+  background-color: rgb(87, 88, 91);
+  color: rgb(155, 155, 155);
+  padding: 15px 0;
+}
+
+.cbp-af-header .logo {
+  position: relative;
+  float: left;
+  background: url(../img/logo.png);
+  background-size: cover;
+  width: 153px;
+  height: 61px;
+  margin-top: 81px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink .logo {
+  margin-top: 24px;
+  height: 40px;
+  width: 100px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+.cbp-af-header nav {
+  float: right;
+  line-height: 230px;
+}
+
+.cbp-af-header nav ul li a {
+  color: rgb(155, 155, 155);
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.cbp-af-header nav a:hover {
+  color: rgb(240, 97, 56);
+  text-decoration: none;
+}
+
+/* Transitions and class for reduced height */
+.cbp-af-header nav {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+  height: 90px;
+  background: rgba(255, 255, 255, 1);
+  -webkit-transition: background .5s;
+  -moz-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink nav {
+  line-height: 90px;
+}
+
+li.active a {
+  color: rgb(246, 187, 74) !important;
+}
+
+.dropdown-menu li a{
+  line-height: 28px !important;
+}
+
+.dropdown-menu>li>a:hover {
+  transition: background-color 0.5s;
+}
+
+.dropdown {
+  line-height: 0px;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+  outline: none;
+  text-decoration: none;
+  background: none;
+}
+
+/* SLIDER MENU
+   ========================================================================== */
+.js-slideout-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.slideout-menu {
+ position: fixed;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ z-index: 0;
+ width: 256px;
+ overflow-y: auto;
+ -webkit-overflow-scrolling: touch;
+ display: none;
+ background-color: #1D1F20;
+ background-image: -webkit-linear-gradient(55deg, #1D1F20, #404348);
+ background-image: -o-linear-gradient(55deg, #1D1F20, #404348);
+ background-image: linear-gradient(145deg, #1D1F20, #404348);
+}
+
+.slideout-panel {
+ position: relative;
+ z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+ overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+ display: block;
+}
+
+.slide--section {
+  padding-left: 15px;
+}
+
+.slide--menu a.slide--logo {
+  background: url(../img/logo.png);
+  display: block;
+  background-size: cover;
+  width: 80px;
+  height: 32px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.slide--menu hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section--title {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 200;
+  margin-top: 30px;
+}
+
+.section--list {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* 1.2. HEADER
+   ========================================================================== */
+.header {
+  background: url(../img/IMG_6176.jpg) center no-repeat;
+  background-size: cover;
+  height: 780px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.icon-menu {
+  font-size: 3em;
+  color: rgb(87, 88, 91);
+}
+
+/* zu versuchszwecken, kann im Produktivumfeld entfernt werden */
+.about {
+  height: 2000px;
+}
