@@ -41,7 +41,8 @@ font-weight: 200;
 
 footer h3,
 footer p,
-footer a {
+footer a,
+footer a:hover {
   color: white;
   text-decoration: none;
 }
@@ -69,9 +70,15 @@ footer a {
   border-radius: 4px;
 }
 
-.columns--reademore>a:hover {
-  border-color: red;
-  color: red;
+.columns--readmore > a:hover {
+  border-color: rgb(246, 187, 74);
+  color: rgb(246, 187, 74);
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-webkit-transition: all .5s;
+  -ms-webkit-transition: all .5s;
+  -o-webkit-transition: all .5s;
+
 }
 
 
@@ -342,4 +349,9 @@ footer {
 .footer--columns {
   padding-left: 2%;
   padding-bottom: 20px;
+}
+  
+
+.icon-email, {
+  vertical-align: sub;
 }
