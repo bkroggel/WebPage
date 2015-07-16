@@ -460,11 +460,6 @@ li.active a {
   text-align: justify;
 }
 
-#format-row {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 .format--column {
   padding-left: 0px;
   padding-right: 0px;
@@ -504,7 +499,66 @@ li.active a {
 /* ==========================================================================
    5. LOCATION
    ========================================================================== */
+.location {
+  width: 100%;
+  margin: 0 auto;
+}
 
+.location--image {
+  background: url("../img/IMG_7050.jpg") center;
+  background-size: cover;
+  height: 150px;
+  display: table;
+  width: 100%;
+}
+
+.location--image h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.location__main {
+  text-align: justify;
+}
+
+.location--column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.location--column p {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .location {
+    width: 100%;
+  }
+
+  .location--image {
+    height: 534px;
+  }
+
+  .location--column {
+    height: 534px;
+    display: table;
+  }
+
+  .location--column p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  #first-location-column {
+    padding: 0px 80px;
+  }
+}
 
 /* ==========================================================================
    6. TEAM
