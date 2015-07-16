@@ -341,7 +341,43 @@ li.active a {
   color: rgb(87, 88, 91);
 }
 
+.header--logo-mobil {
+  margin-bottom: 10px;
+}
 
+.header--title-picture img {
+  width: 70%;
+  height: auto;
+}
+
+.header--title-picture {
+  text-align: center;
+  padding-top: 40%;
+}
+
+.header--button {
+  margin-top: 30px;
+  border: 1px solid black;
+  background: none;
+  color: black;
+}
+
+.header--button:hover {
+  border-color: black;
+  -webkit-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
+}
+
+@media (min-width: 992px) {
+  .header--title-picture img {
+    width: 35%;
+}
+
+  .header--title-picture{
+    padding-top: 15%;
+  }
+}
 /* ==========================================================================
    2. ABOUT THE CONFERENCE
    ========================================================================== */
