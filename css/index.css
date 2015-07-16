@@ -91,6 +91,9 @@ a:focus {
 
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
+hr {
+  width: 80%;
+}
 
 /* ==========================================================================
    1. HEADER
@@ -431,10 +434,64 @@ li.active a {
 /* ==========================================================================
    4. FORMAT
    ========================================================================== */
+.format {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.format--image {
+  background: url("../img/seminarraum.jpg") center;
+  background-size: cover;
+  height: 150px;
+  display: table;
+  width: 100%;
+}
+
+.format--image h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.format__main {
+  text-align: justify;
+}
+
+#format-row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.format--column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.format--column p {
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .format {
+    width: 80%;
+  }
+
+  #second-format-column {
+    padding-left: 25px;
+  }
+}
+
 
 /* ==========================================================================
    5. LOCATION
    ========================================================================== */
+.location {
+  width: 80%;
+  margin: 0 auto;
+}
 
 /* ==========================================================================
    6. TEAM
