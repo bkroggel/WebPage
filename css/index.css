@@ -435,7 +435,7 @@ li.active a {
    4. FORMAT
    ========================================================================== */
 .format {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -471,16 +471,32 @@ li.active a {
 }
 
 .format--column p {
+  margin: 0 auto;
+  width: 90%;
   margin-top: 20px;
 }
 
 @media (min-width: 992px) {
   .format {
-    width: 80%;
+    width: 100%;
+  }
+
+  .format--image {
+    height: 534px;
+  }
+
+  .format--column {
+    height: 534px;
+    display: table;
+  }
+
+  .format--column p {
+    display: table-cell;
+    vertical-align: middle;
   }
 
   #second-format-column {
-    padding-left: 25px;
+    padding: 0px 80px;
   }
 }
 
@@ -488,10 +504,7 @@ li.active a {
 /* ==========================================================================
    5. LOCATION
    ========================================================================== */
-.location {
-  width: 80%;
-  margin: 0 auto;
-}
+
 
 /* ==========================================================================
    6. TEAM
