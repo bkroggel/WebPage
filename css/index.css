@@ -354,16 +354,17 @@ footer {
 .footer--columns {
   padding-left: 15px;
   padding-bottom: 20px;
+  overflow: hidden;
 }
   
 .icon-email, {
   vertical-align: sub;
 }
 
-.columns--social-buttons span {
-  font-size: 4em;
-  line-height: 1.5em;
-  padding-right: 0.1em;
+.columns--social-buttons a {
+  font-size: 20px;
+  line-height: 15px;
+  padding-right: 5px;
 }
 
 .zu-logo {
