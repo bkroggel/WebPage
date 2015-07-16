@@ -299,15 +299,11 @@ li.active a {
 .about__header h1 {
   text-transform: uppercase;
   margin: 35px 0px;
+  font-size: 30px;
 }
 
 .about__main {
   text-align: justify;
-}
-
-.about__end {
-  text-align: center;
-  font-size: 18px;
 }
 
 #welcome-slogan {
@@ -331,5 +327,47 @@ li.active a {
   #welcome-slogan {
     margin-top: 21px;
     font-size: 23px;
+  }
+}
+
+/* 3.0 TARGET GROUPS & GOALS
+   ========================================================================== */
+.target {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.target__header h1 {
+  text-transform: uppercase;
+  margin: 35px 0px;
+  font-size: 30px;
+}
+
+.target__main {
+  text-align: justify;
+}
+
+.target--column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+  .target {
+    width: 80%;
+  }
+
+  #target-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #first-target-column {
+    padding-right: 25px;
+  }
+
+  #second-target-column {
+    padding-left: 25px;
   }
 }
