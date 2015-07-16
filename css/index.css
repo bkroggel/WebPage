@@ -14,6 +14,8 @@
  *    - 1.1. NAVIGATIONBAR
  *    - 1.2. HEADER
  *  2. ABOUT THE CONFERENCE
+    5. FOOTER
+      -5.1. 
  */
 
 /* ==========================================================================
@@ -36,6 +38,48 @@ text-transform: uppercase;
 color: rgb(155, 155, 155);
 font-size: 0.8em;
 font-weight: 200;
+}
+
+footer h3,
+footer p,
+footer a,
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer h3 {
+  font-size: 1em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+footer p,
+footer a {
+  font-size: 0.8em;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.columns--readmore {
+  margin-top: 10px;
+}
+
+.columns--readmore>a {
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+footer a:hover {
+  border-color: rgb(246, 187, 74);
+  color: rgb(246, 187, 74);
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-webkit-transition: all .5s;
+  -ms-webkit-transition: all .5s;
+  -o-webkit-transition: all .5s;
+
 }
 
 
@@ -370,4 +414,51 @@ li.active a {
   #second-target-column {
     padding-left: 25px;
   }
+}
+
+/* ==========================================================================
+   5. FOOTER
+   ========================================================================== */
+
+/* 5.1
+   ========================================================================== */
+
+footer {
+  background-color: rgb(87, 88, 91);
+}
+
+.footer--row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer--columns {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+  
+.icon-email, {
+  vertical-align: sub;
+}
+
+.columns--social-buttons a {
+  font-size: 20px;
+  line-height: 15px;
+  padding-right: 5px;
+}
+
+.zu-logo {
+  background: url(../img/zu_logo_white.png) no-repeat center;
+  background-size: cover;
+  width: 115px;
+  height: 30px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.copyright {
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top: 1px solid white;
 }
