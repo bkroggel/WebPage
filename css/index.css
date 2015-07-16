@@ -81,6 +81,9 @@ footer a:hover {
   -o-webkit-transition: all .5s;
 }
 
+a:focus {
+  text-decoration: none;
+}
 
 
 /* 0.2. TYPE ELEMENT
@@ -118,10 +121,10 @@ body {
 }
 
 .cbp-af-header .cbp-af-inner {
-  width: 90%;
-  max-width: 69em;
+  width: 80%;
+  /*max-width: 69em;*/
   margin: 0 auto;
-  padding: 0 1.875em;
+  /*padding: 0 1.875em;*/
 }
 
 .cbp-af-header nav,
@@ -314,6 +317,10 @@ li.active a {
 
 /* 1.2. HEADER
    ========================================================================== */
+#panel {
+  background: white;
+}
+
 .header {
   background: url(../img/IMG_6176.jpg) center no-repeat;
   background-size: cover;
@@ -442,8 +449,7 @@ footer {
 }
 
 .columns--social-buttons a {
-  font-size: 20px;
-  line-height: 15px;
+  font-size: 35px;
   padding-right: 5px;
 }
 

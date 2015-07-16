@@ -61,8 +61,8 @@
         <div class="logo"></div>
         <nav id="navigationbar" role="navigation" class="nav" >
           <ul>
-            <li><a href="#about">Platzhalter_1</a></li>
-            <li><a href="#">Platzhalter_2</a><li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#target">Target</a><li>
             <li><a href="#">Platzhalter_3</a><li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -129,7 +129,7 @@
    <!-- 
   ============================================ Target Groups & Goals ===========================================
    -->
-   <div class="target">
+   <div class="target" id="target">
     <div class="target__header">
       <h1>Target Groups & Goals</h1>
     </div> <!-- /target__header -->
@@ -232,5 +232,20 @@
     </div>
   </footer>
   </main> <!-- /main content -->
+
+
+
+  <script type="text/javascript">
+      var $root = $('html, body');
+        $('.nav a').click(function() {
+            var href = $.attr(this, 'href');
+            $root.animate({
+                scrollTop: $(href).offset().top
+            }, 500, function () {
+                window.location.hash = href;
+            });
+            return false;
+        });
+    </script>
 </body>
 </html>
