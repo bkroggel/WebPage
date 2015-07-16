@@ -70,7 +70,7 @@ footer a {
   border-radius: 4px;
 }
 
-.columns--readmore > a:hover {
+footer a:hover {
   border-color: rgb(246, 187, 74);
   color: rgb(246, 187, 74);
   transition: all .5s;
@@ -346,12 +346,38 @@ footer {
   background-color: rgb(87, 88, 91);
 }
 
+.footer--row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .footer--columns {
-  padding-left: 2%;
+  padding-left: 15px;
   padding-bottom: 20px;
 }
   
-
 .icon-email, {
   vertical-align: sub;
 }
+
+.columns--social-buttons span {
+  font-size: 4em;
+  line-height: 1.5em;
+  padding-right: 0.1em;
+}
+
+.zu-logo {
+  background: url(../img/zu_logo_white.png) no-repeat center;
+  background-size: cover;
+  width: 115px;
+  height: 30px;
+  margin: 30px 0;
+  overflow: hidden;
+}
+
+.copyright {
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top: 1px solid white;
+}
+
