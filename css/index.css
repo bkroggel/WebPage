@@ -346,13 +346,13 @@ li.active a {
 }
 
 .header--title-picture img {
-  width: 70%;
+  width: 60%;
   height: auto;
 }
 
 .header--title-picture {
   text-align: center;
-  padding-top: 40%;
+  padding-top: 120px;
 }
 
 .header--button {
@@ -369,13 +369,23 @@ li.active a {
   transition: background-color .5s;
 }
 
+@media (min-width: 768px) {
+  .header--title-picture img {
+    width: 45%;
+  }
+
+  .header--title-picture {
+    padding-top: 15%;
+  }
+}
+
 @media (min-width: 992px) {
   .header--title-picture img {
     width: 35%;
 }
 
   .header--title-picture{
-    padding-top: 15%;
+    padding-top: 250px;
   }
 }
 /* ==========================================================================
@@ -510,6 +520,7 @@ footer {
   height: 30px;
   margin: 30px 0;
   overflow: hidden;
+  font-style:
 }
 
 .copyright {
