@@ -609,6 +609,47 @@ li.active a {
 /* ==========================================================================
    6. TEAM
    ========================================================================== */
+.team {
+  background-color: #d3d3d3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#owl-demo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.team-item {
+  margin: 35px;
+  border-bottom: 5px solid grey;
+  padding-bottom: 50px;
+}
+
+.team-item img{
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-item h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.team-item h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: black;
+}
 
 /* ==========================================================================
    7. FOOTER
