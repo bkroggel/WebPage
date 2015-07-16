@@ -58,7 +58,7 @@
     <button class="js-slideout-toggle hidden-md hidden-lg"><span class="icon-menu"></span></button>
     <div class="cbp-af-header hidden-sm hidden-xs">
       <div class="cbp-af-inner">
-        <div class="logo"></div>
+        <a href="#index"><div class="logo"></div></a>
         <nav id="navigationbar" role="navigation" class="nav" >
           <ul>
             <li><a href="#about">About</a></li>
@@ -83,53 +83,53 @@
   
 
 
-   <!-- 
+  <!-- 
   ============================================= About the Conference ===========================================
-   -->
-   <div class="about" id="about">
-     <div class="about__header">
-       <h1>About the Conference</h1>
-     </div> <!-- /about_header -->
-     <div class="about__main">
-       <p>This year a unique international conference will be held on the 20th and
-          21st of November at the banks of Lake Constance. Professors and students
-          teaching or studying interdisciplinary subjects combining disciplines
-          like Philosophy, Sociology, Political Science and Economics from all over
-          Europe will attend a two-day conference at Zeppelin University in Friedrichshafen
-          to discuss the topic of convergence. Convergence – in Latin
-          “to incline towards each other” – stands for a broad academic debate that
-          is firmly embedded in the respective disciplines. We will try to bring these
-          different perspectives together and foster a fruitful exchange, hopefully
-          raising a lot of interesting questions and excite riveting debates.
-          Can a convergence of values and norms be observed on a global scale?
-          Is there a convergence in living standards and a divergence through rising
-          inequality? East and west, developing and developed countries – are these
-          ceasing categories in a converging world?
-          <br><br>
-          Besides the academic discourse, there will be a focus on a personal and
-          program related exchange. How are the different programs structured,
-          what is their approach towards academic disciplines? Can a convergence
-          or divergence be observed between the different academic perspectives
-          of the programs? Which actual careers are alumni of PPE/SPE programs
-          pursuing and what kind of graduate programs are suitable after the multior
-          interdisciplinary bachelor’s programs?
-          <br><br>
-          The conference’s conception will be carried out according to the core
-          idea(l) of the SPE/PPE academic programs: not hesitating to ask grand
-          questions in a complex and interdependent world where overarching and
-          easy answers are rarely given! We are convinced that the conference and
-          this concept will result in two days of fruitful exchange, lively debates and
-          an enriching time out from academic daily routine.
-          <br><br>
-          <div id="welcome-slogan">"We are looking forward to welcome you in Friedrichshafen at Zeppelin
-          University!"</div></p>
-     </div> <!-- /about_main -->
-   </div> <!-- /about -->
-   <hr>
-   <!-- 
+  -->
+  <div class="about" id="about">
+    <div class="about__header">
+      <h1>About the Conference</h1>
+    </div> <!-- /about_header -->
+    <div class="about__main">
+      <p>This year a unique international conference will be held on the 20th and
+      21st of November at the banks of Lake Constance. Professors and students
+      teaching or studying interdisciplinary subjects combining disciplines
+      like Philosophy, Sociology, Political Science and Economics from all over
+      Europe will attend a two-day conference at Zeppelin University in Friedrichshafen
+      to discuss the topic of convergence. Convergence – in Latin
+      “to incline towards each other” – stands for a broad academic debate that
+      is firmly embedded in the respective disciplines. We will try to bring these
+      different perspectives together and foster a fruitful exchange, hopefully
+      raising a lot of interesting questions and excite riveting debates.
+      Can a convergence of values and norms be observed on a global scale?
+      Is there a convergence in living standards and a divergence through rising
+      inequality? East and west, developing and developed countries – are these
+      ceasing categories in a converging world?
+      <br><br>
+      Besides the academic discourse, there will be a focus on a personal and
+      program related exchange. How are the different programs structured,
+      what is their approach towards academic disciplines? Can a convergence
+      or divergence be observed between the different academic perspectives
+      of the programs? Which actual careers are alumni of PPE/SPE programs
+      pursuing and what kind of graduate programs are suitable after the multior
+      interdisciplinary bachelor’s programs?
+      <br><br>
+      The conference’s conception will be carried out according to the core
+      idea(l) of the SPE/PPE academic programs: not hesitating to ask grand
+      questions in a complex and interdependent world where overarching and
+      easy answers are rarely given! We are convinced that the conference and
+      this concept will result in two days of fruitful exchange, lively debates and
+      an enriching time out from academic daily routine.
+      <br><br>
+      <div id="welcome-slogan">"We are looking forward to welcome you in Friedrichshafen at Zeppelin
+      University!"</div></p>
+    </div> <!-- /about_main -->
+  </div> <!-- /about -->
+  <hr>
+  <!-- 
   ============================================ Target Groups & Goals ===========================================
-   -->
-   <div class="target" id="target">
+  -->
+  <div class="target" id="target">
     <div class="target__header">
       <h1>Target Groups & Goals</h1>
     </div> <!-- /target__header -->
@@ -171,35 +171,35 @@
         </div> <!-- /row -->
       </div> <!-- /container -->
     </div>  <!-- /target__main -->
-   </div> <!-- /target -->
-   <hr>
-   <!-- 
+  </div> <!-- /target -->
+  <hr>
+  <!-- 
   ==================================================== Format ==================================================
-   -->
-   <div class="format">
+  -->
+  <div class="format">
      
-   </div>
-   <!-- 
+  </div>
+  <!-- 
   =================================================== Location =================================================
-   -->
-   <div class="location">
+  -->
+  <div class="location">
      
-   </div>
-   <!-- 
+  </div>
+  <!-- 
   ===================================================== Team ===================================================
-   -->
-   <div class="team">
+  -->
+  <div class="team">
      
-   </div>
-   <!-- 
+  </div>
+  <!-- 
   ==================================================== Contact =================================================
-   -->
-   <div class="contact">
+  -->
+  <div class="contact">
      
-   </div>
-   <!-- 
+  </div>
+  <!-- 
   ==================================================== Footer ==================================================
-   -->
+  -->
   <footer>
     <div class="row footer--row">
       <div class="col-xs-12 col-sm-7 col-md-3 col-lg-3 footer--columns">
@@ -231,21 +231,7 @@
       </div>
     </div>
   </footer>
+  
   </main> <!-- /main content -->
-
-
-
-  <script type="text/javascript">
-      var $root = $('html, body');
-        $('.nav a').click(function() {
-            var href = $.attr(this, 'href');
-            $root.animate({
-                scrollTop: $(href).offset().top
-            }, 500, function () {
-                window.location.hash = href;
-            });
-            return false;
-        });
-    </script>
 </body>
 </html>
