@@ -371,6 +371,7 @@ li.active a {
   -webkit-transition: background-color .5s;
   -o-transition: background-color .5s;
   transition: background-color .5s;
+  background-color: white;
 }
 
 @media (min-width: 768px) {
