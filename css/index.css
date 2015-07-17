@@ -328,7 +328,8 @@ li.active a {
 }
 
 .header {
-  background: url(../img/IMG_6176.jpg) center no-repeat;
+  /*background: url(../img/IMG_6176.jpg) center no-repeat;*/
+  background: url(../img/header_background_6.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 150px;
 }
@@ -398,12 +399,11 @@ li.active a {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 30px;
-  padding-top: 30px;
 }
 
 .about__header h1 {
   text-transform: uppercase;
-  margin: 35px 0px;
+  margin-bottom: 35px;
   font-size: 30px;
 }
 
