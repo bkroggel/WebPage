@@ -75,8 +75,8 @@ footer a {
 }
 
 footer a:hover {
-  border-color: rgb(246, 187, 74);
-  color: rgb(246, 187, 74);
+  border-color: rgb(240, 97, 56);
+  color: rgb(240, 97, 56);
   transition: all .5s;
   -webkit-transition: all .5s;
   -moz-webkit-transition: all .5s;
@@ -224,7 +224,7 @@ body {
 }
 
 li.active a {
-  color: rgb(246, 187, 74) !important;
+  color: rgb(240, 97, 56) !important;
 }
 
 .dropdown-menu li a{
@@ -330,11 +330,11 @@ li.active a {
 .header {
   background: url(../img/IMG_6176.jpg) center no-repeat;
   background-size: cover;
-  height: 780px;
+  padding-bottom: 150px;
 }
 
 .header button {
-  background: none;
+  background: rgba(255, 255, 255, 0);
   border: none;
   outline: none;
 }
