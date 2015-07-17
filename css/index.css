@@ -397,7 +397,7 @@ li.active a {
 .about {
   width: 90%;
   margin: 0 auto;
-  background-color: white;
+  padding-bottom: 30px;
 }
 
 .about__header h1 {
@@ -421,6 +421,7 @@ li.active a {
 @media (min-width: 992px) {
   .about {
     width: 80%;
+    padding-bottom: 50px;
   }
 
   .about__main {
@@ -438,9 +439,14 @@ li.active a {
    3. TARGET GROUPS & GOALS
    ========================================================================== */
 .target {
+  background-color: rgb(241,241,241);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.target__all {
   width: 90%;
   margin: 0 auto;
-  background-color: white;
 }
 
 .target__header h1 {
@@ -460,6 +466,11 @@ li.active a {
 
 @media (min-width: 992px) {
   .target {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .target__all {
     width: 80%;
   }
 
@@ -610,7 +621,7 @@ li.active a {
    6. TEAM
    ========================================================================== */
 .team {
-  background-color: #d3d3d3;
+  background-color: rgb(241,241,241);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -622,7 +633,6 @@ li.active a {
 
 .team-item {
   margin: 35px;
-  border-bottom: 5px solid grey;
   padding-bottom: 50px;
 }
 
@@ -638,6 +648,7 @@ li.active a {
   margin-top: 50px;
   text-align: center;
   font-size: 1.7em;
+  border-top: 5px solid rgb(246,97,56);
 }
 
 .team-item h2 {
@@ -645,10 +656,11 @@ li.active a {
   text-align: center;
   font-size: 1.2em;
   text-transform: uppercase;
+  border-bottom: 5px solid rgb(246,97,56);
 }
 
 .owl-theme .owl-controls .owl-page span {
-  background: black;
+  background: rgb(87, 88, 91);
 }
 
 /* ==========================================================================
