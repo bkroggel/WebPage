@@ -398,6 +398,7 @@ li.active a {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .about__header h1 {
@@ -407,7 +408,7 @@ li.active a {
 }
 
 .about__main {
-  text-align: justify;
+  text-align: left;
 }
 
 #welcome-slogan {
@@ -421,12 +422,14 @@ li.active a {
 @media (min-width: 992px) {
   .about {
     width: 80%;
-    padding-bottom: 50px;
+    padding-bottom: 85px;
+    padding-top: 50px;
   }
 
   .about__main {
   -webkit-column-count: 2;
   -webkit-column-gap: 50px;
+  text-align: justify;
   }
 
   #welcome-slogan {
@@ -441,7 +444,7 @@ li.active a {
 .target {
   background-color: rgb(241,241,241);
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .target__all {
@@ -456,7 +459,7 @@ li.active a {
 }
 
 .target__main {
-  text-align: justify;
+  text-align: left;
 }
 
 .target--column {
@@ -472,6 +475,10 @@ li.active a {
 
   .target__all {
     width: 80%;
+  }
+
+  .target_main {
+    text-align: justify;
   }
 
   #target-row {
@@ -494,6 +501,7 @@ li.active a {
 .format {
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .format--image {
@@ -514,7 +522,7 @@ li.active a {
 }
 
 .format__main {
-  text-align: justify;
+  text-align: left;
 }
 
 .format--column {
@@ -531,10 +539,16 @@ li.active a {
 @media (min-width: 992px) {
   .format {
     width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .format--image {
     height: 534px;
+  }
+
+  .format__main {
+    text-align: justify;
   }
 
   .format--column {
@@ -559,6 +573,8 @@ li.active a {
 .location {
   width: 100%;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .location--image {
@@ -579,7 +595,7 @@ li.active a {
 }
 
 .location__main {
-  text-align: justify;
+  text-align: left;
 }
 
 .location--column {
@@ -596,6 +612,12 @@ li.active a {
 @media (min-width: 992px) {
   .location {
     width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .location__main {
+    text-align: justify;
   }
 
   .location--image {
@@ -622,8 +644,8 @@ li.active a {
    ========================================================================== */
 .team {
   background-color: rgb(241,241,241);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team__header {
@@ -677,6 +699,12 @@ li.active a {
   /*margin-top: 25px;*/
 }
 
+@media (min-width: 992px) {
+  .team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
 /* ==========================================================================
    7. FOOTER
    ========================================================================== */
