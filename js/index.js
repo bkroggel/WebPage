@@ -1,3 +1,6 @@
+/// Sidebar on right side
+  $(".sidebar.right").sidebar({side: "right"});
+
 
 $(document).ready(function(){
 
@@ -89,6 +92,26 @@ $(document).ready(function(){
           itemsDesktopSmall : [979,3]
       });
     });
+
+    // All sides
+    var sides = ["left", "top", "right", "bottom"];
+    $("h1 span.version").text($.fn.sidebar.version);
+
+    // Initialize sidebars
+    for (var i = 0; i < sides.length; ++i) {
+        var cSide = sides[i];
+        $(".sidebar." + cSide).sidebar({side: cSide});
+    }
+
+    // Click handlers
+    $(".btn_toggle[data-action]").on("click", function () {
+        var $this = $(this);
+        var action = $this.attr("data-action");
+        var side = $this.attr("data-side");
+        $(".sidebar." + side).trigger("sidebar:" + action);
+        return false;
+    });
+
 
   // end document ready
 });
