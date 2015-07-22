@@ -342,7 +342,7 @@ li.active a {
   outline: none;
 }
 
-.icon-menu {
+.fa-navicon {
   font-size: 3em;
   color: rgb(87, 88, 91);
 }
@@ -770,12 +770,16 @@ footer {
     font-size: 2em;
 }
 
-.close-line a{
-  color: grey;
+.close-line a {
   font-size: 12px;
   background-color: black;
-  width: 50%;
+  width: 100%;
+  margin: 0 auto;
   padding-left: 10px;
   line-height: 2.5;
   display: block;
+}
+
+.close-line i {
+  color: white;
 }
