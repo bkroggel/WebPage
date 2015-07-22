@@ -758,9 +758,21 @@ footer {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 100%;
     background: white;
     z-index: 999999;
+}
+
+@media (min-width: 768px ) {
+  .sidebar.right {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px ) {
+  .sidebar.right {
+    width: 50%;
+  }
 }
 
 .sidebars > .sidebar {
