@@ -76,7 +76,8 @@ footer a {
   border-radius: 4px;
 }
 
-footer a:hover {
+footer a:hover,
+.element-reference a:hover {
   border-color: rgb(240, 97, 56);
   color: rgb(240, 97, 56);
   transition: all .5s;
@@ -784,14 +785,57 @@ footer {
 
 .close-line a {
   font-size: 12px;
-  background-color: black;
+  background-color: rgb(240, 97, 56);
   width: 100%;
   margin: 0 auto;
   padding-left: 10px;
   line-height: 2.5;
   display: block;
+  border-radius: 10px;
+  text-transform: uppercase;
 }
 
 .close-line i {
   color: white;
+}
+
+.close-line .fa-arrow-circle-left {
+  font-size: 20px;
+  vertical-align: sub;
+  padding-right: 5px;
+}
+
+.scrollable-content {
+  margin-top: 20px;
+  padding-bottom: 50px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.impressum p {
+  color: rgb(87, 88, 91);
+  font-size: 12px;
+}
+
+.element-reference ul {
+  border-top: 1px solid black;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.element-reference a,
+.element-reference li {
+  color: rgb(87, 88, 91);
+  font-size: 11px;
+}
+
+.element-reference .fa-github {
+  color: rgba(155, 155, 155, 1);
+}
+
+li.head {
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
