@@ -357,6 +357,7 @@ li.active a {
   background: url(../img/header_background_6.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 150px;
+  height: 110vh;
 }
 
 .header button {
@@ -575,15 +576,21 @@ li.active a {
   }
 
   .format--image {
-    height: 534px;
+    /*height: 534px;*/
+    height: 100vh;
   }
 
   .format__main {
     text-align: justify;
   }
 
+  .row--viewport {
+    height: 100vh;
+  }
+
   .format--column {
-    height: 534px;
+    /*height: 534px;*/
+    height: 100vh;
     display: table;
   }
 
@@ -657,11 +664,13 @@ li.active a {
   }
 
   .location--image {
-    height: 534px;
+    /*height: 534px;*/
+    height: 100vh;
   }
 
   .location--column {
-    height: 534px;
+    /*height: 534px;*/
+    height: 100vh;
     display: table;
   }
 
