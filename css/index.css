@@ -409,6 +409,7 @@ li.active a {
   text-transform: uppercase;
   margin-bottom: 35px;
   font-size: 30px;
+  border-bottom: 1px solid black;
 }
 
 .about__main {
@@ -446,7 +447,7 @@ li.active a {
    3. TARGET GROUPS & GOALS
    ========================================================================== */
 .target {
-  background-color: rgb(241,241,241);
+  /*background-color: rgb(241,241,241);*/
   padding-top: 10px;
   padding-bottom: 50px;
 }
@@ -460,6 +461,7 @@ li.active a {
   text-transform: uppercase;
   margin: 35px 0px;
   font-size: 30px;
+  border-bottom: 1px solid black;
 }
 
 .target__main {
@@ -534,10 +536,13 @@ li.active a {
   padding-right: 0px;
 }
 
-.format--column p {
-  margin: 0 auto;
+.format__text {
   width: 90%;
-  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.format__text h1 {
+  border-bottom: 1px solid black;
 }
 
 @media (min-width: 992px) {
@@ -551,18 +556,16 @@ li.active a {
     height: 534px;
   }
 
-  .format__main {
-    text-align: justify;
-  }
-
   .format--column {
     height: 534px;
     display: table;
   }
 
-  .format--column p {
+  .format__text {
     display: table-cell;
     vertical-align: middle;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 
   #second-format-column {
@@ -607,10 +610,13 @@ li.active a {
   padding-right: 0px;
 }
 
-.location--column p {
-  margin: 0 auto;
+.location__text {
   width: 90%;
-  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.location__text h1 {
+  border-bottom: 1px solid black;
 }
 
 @media (min-width: 992px) {
@@ -633,9 +639,11 @@ li.active a {
     display: table;
   }
 
-  .location--column p {
+  .location__text {
     display: table-cell;
     vertical-align: middle;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 
   #first-location-column {
@@ -647,30 +655,30 @@ li.active a {
    6. TEAM
    ========================================================================== */
 .team {
-  background-color: rgb(241,241,241);
+  /*background-color: rgb(241,241,241);*/
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .team__header {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  padding-left: 30px;
   padding-top: 25px;
 }
 
 .team__header h1 {
   font-size: 30px;
   margin: 0;
+  border-bottom: 1px solid black;
 }
 
 #owl-demo {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .team-item {
-  padding: 30px;
+  padding: 5%;
 }
 
 .team-item img{
@@ -707,6 +715,18 @@ li.active a {
   .team {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .team__header {
+    width: 80%;
+  }
+
+  .team-item {
+    padding: 10%;
+  }
+
+  #owl-demo {
+  width: 84.5%;
   }
 }
 /* ==========================================================================
