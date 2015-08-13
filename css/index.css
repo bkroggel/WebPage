@@ -29,6 +29,28 @@
 
 /* 0.1. FONTS
    ========================================================================== */
+p,
+a,
+li {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0,0,0,0.75);
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0,0,0,0.75);
+}
+
 .section--list a {
   line-height: 3em;
   color: white;
@@ -483,7 +505,7 @@ li.active a {
     width: 80%;
   }
 
-  .target_main {
+  .target__main {
     text-align: justify;
   }
 
@@ -554,6 +576,10 @@ li.active a {
 
   .format--image {
     height: 534px;
+  }
+
+  .format__main {
+    text-align: justify;
   }
 
   .format--column {
