@@ -116,6 +116,9 @@ a:focus {
 
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
+.anchor {
+  padding-top: 90px;
+}
 
 /* ==========================================================================
    1. HEADER
@@ -450,7 +453,6 @@ li.active a {
   .about {
     width: 80%;
     padding-bottom: 85px;
-    padding-top: 50px;
   }
 
   .about__main {
@@ -468,12 +470,6 @@ li.active a {
 /* ==========================================================================
    3. TARGET GROUPS & GOALS
    ========================================================================== */
-.target {
-  /*background-color: rgb(241,241,241);*/
-  padding-top: 10px;
-  padding-bottom: 50px;
-}
-
 .target__all {
   width: 90%;
   margin: 0 auto;
@@ -501,8 +497,7 @@ li.active a {
 
 @media (min-width: 992px) {
   .target {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
   }
 
   .target__all {
@@ -699,8 +694,6 @@ li.active a {
    6. TEAM
    ========================================================================== */
 .team {
-  /*background-color: rgb(241,241,241);*/
-  padding-top: 30px;
   padding-bottom: 30px;
 }
 
