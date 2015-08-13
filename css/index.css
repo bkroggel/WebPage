@@ -116,9 +116,6 @@ a:focus {
 
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
-hr {
-  width: 80%;
-}
 
 /* ==========================================================================
    1. HEADER
@@ -219,8 +216,9 @@ body {
 .cbp-af-header nav ul li a {
   color: rgb(155, 155, 155);
   margin: 0 0 0 20px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 0.8em;
+  letter-spacing: 0.1em;
 }
 
 .cbp-af-header nav a:hover {
@@ -390,6 +388,7 @@ li.active a {
   border: 1px solid black;
   background: none;
   color: black;
+  text-transform: lowercase;
 }
 
 .header--button:hover {
@@ -429,10 +428,10 @@ li.active a {
 }
 
 .about__header h1 {
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-bottom: 35px;
   font-size: 30px;
-  border-bottom: 1px solid black;
+  color: rgb(155,155,155);
 }
 
 .about__main {
@@ -440,8 +439,8 @@ li.active a {
 }
 
 #welcome-slogan {
-  border-left: 3px solid rgb(155,155,155);
-  padding-left: 10px;
+  text-transform: lowercase;
+  color: rgb(155,155,155);
   margin-top: 12px;
   font-size: 17px;
   text-align: left;
@@ -481,10 +480,10 @@ li.active a {
 }
 
 .target__header h1 {
-  text-transform: uppercase;
-  margin: 35px 0px;
+  text-transform: lowercase;
+  margin-bottom: 35px;
   font-size: 30px;
-  border-bottom: 1px solid black;
+  color: rgb(155,155,155);
 }
 
 .target__main {
@@ -494,6 +493,10 @@ li.active a {
 .target--column {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.target--column span {
+  color: rgb(240, 97, 56);
 }
 
 @media (min-width: 992px) {
@@ -565,7 +568,10 @@ li.active a {
 }
 
 .format__text h1 {
-  border-bottom: 1px solid black;
+  text-transform: lowercase;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: rgb(155,155,155);
 }
 
 @media (min-width: 992px) {
@@ -649,7 +655,10 @@ li.active a {
 }
 
 .location__text h1 {
-  border-bottom: 1px solid black;
+  text-transform: lowercase;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: rgb(155,155,155);
 }
 
 @media (min-width: 992px) {
@@ -702,9 +711,10 @@ li.active a {
 }
 
 .team__header h1 {
+  text-transform: lowercase;
+  margin-bottom: 35px;
   font-size: 30px;
-  margin: 0;
-  border-bottom: 1px solid black;
+  color: rgb(155,155,155);
 }
 
 #owl-demo {
