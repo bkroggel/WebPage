@@ -71,7 +71,8 @@ footer p,
 footer a,
 footer a:hover,
 .sidebar a,
-.sidebar a:hover {
+.sidebar a:hover,
+.reference-row p {
   color: white;
   text-decoration: none;
 }
@@ -877,10 +878,13 @@ footer {
   color: white;
 }
 
+.close-line .fa-arrow-circle-left {
+  vertical-align: sub;
+}
+
 .close-line .fa-arrow-circle-left,
 .close-line .fa-chevron-circle-down {
   font-size: 20px;
-  vertical-align: sub;
   padding-right: 5px;
 }
 
@@ -894,6 +898,23 @@ footer {
 .impressum p {
   color: rgb(87, 88, 91);
   font-size: 12px;
+}
+
+.impressum h1 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.impressum h2 {
+  font-size: 12px;
+  font-style: oblique;
+  margin: 3px 0 20px;
+}
+
+.impressum h3 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .element-reference ul {
@@ -916,6 +937,41 @@ li.head {
   color: black;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.reference-row {
+  display: table;
+}
+
+.reference-icon-section {
+  width: 6%;
+  height: 40px;
+  float: left;
+  display: table;
+  vertical-align: middle;
+}
+
+.reference-icon-section span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.reference-text-section {
+  width: 94%;
+  float: left;
+  display: table;
+  height: 40px;
+}
+
+.reference-text-section p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.close-line .fa-chevron-circle-down {
+  vertical-align: middle;
 }
 
 .panel-default>.panel-heading {
