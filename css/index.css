@@ -714,7 +714,7 @@ li.active a {
 }
 
 #owl-demo {
-  width: 100%;
+  width: 94%;
   margin: 0 auto;
 }
 
@@ -780,6 +780,8 @@ footer {
 .footer--row {
   margin-left: 0;
   margin-right: 0;
+  width: 93%;
+  margin: 0 auto;
 }
 
 .footer--columns {
@@ -806,7 +808,7 @@ footer {
 }
 
 .copyright {
-  width: 80%;
+  width: 90%;
   margin: 5px auto 0px;
   margin-top: 5px;
   margin-bottom: 0px;
@@ -817,8 +819,13 @@ footer {
 
 @media (min-width: 992px) {
   .footer--row {
-  width: 82%;
-  margin: 0 auto;
+    width: 82%;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    width: 80%;
+    margin: 5px auto 0px;
   }
 }
 
