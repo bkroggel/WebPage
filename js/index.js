@@ -113,6 +113,10 @@ $(document).ready(function(){
         return false;
     });
 
-
+    $(document).bind('sidebar:open', function() {
+        $('html').css({ overflow: 'hidden' });
+    }).bind('sidebar:closed', function() {
+        $('html').css({ overflow: '' });
+    });
   // end document ready
 });
