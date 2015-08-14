@@ -56,6 +56,7 @@ h6 {
   color: white;
   text-decoration: none;
   font-weight: 100;
+  text-transform: lowercase;
 }
 
 .slide--menu .section-head p {
@@ -287,6 +288,7 @@ li.active a {
  top: 0;
  bottom: 0;
  right: 0;
+ padding-right: 30px;
  z-index: 0;
  width: 256px;
  overflow-y: auto;
