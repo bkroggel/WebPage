@@ -365,6 +365,7 @@ li.active a {
   background: rgba(255, 255, 255, 0);
   border: none;
   outline: none;
+  z-index: 9999;
 }
 
 .fa-navicon {
