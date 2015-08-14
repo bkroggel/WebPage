@@ -121,6 +121,19 @@ a:focus {
   padding-top: 90px;
 }
 
+.numbr {
+  position: absolute;
+  z-index: -1;
+}
+
+.numbr p {
+  font-size: 30vw;
+  color: rgba(240, 97, 56, 0.3);
+  position: absolute;
+  left: -5vw;
+  top: -9vw;
+}
+
 /* ==========================================================================
    1. HEADER
    ========================================================================== */
@@ -432,19 +445,6 @@ li.active a {
   margin: 0 auto;
   padding-bottom: 30px;
   position: relative;
-}
-
-.numbr {
-  position: absolute;
-  z-index: -1;
-}
-
-.numbr p {
-  font-size: 30vw;
-  color: rgba(240, 97, 56, 0.3);
-  position: absolute;
-  left: -5vw;
-  top: -9vw;
 }
 
 .about__header h1 {
