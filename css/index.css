@@ -861,7 +861,7 @@ footer {
   line-height: 2.5;
   display: block;
   border-radius: 10px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .close-line i {
@@ -887,10 +887,9 @@ footer {
 }
 
 .element-reference ul {
-  border-top: 1px solid black;
   list-style: none;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .element-reference a,
@@ -908,3 +907,18 @@ li.head {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+
+.panel-default>.panel-heading {
+  background: none;
+  padding: 0 0 10px;
+}
+
+.panel {
+  border: none;
+  box-shadow: none;
+}
+
+ .panel-group .panel-heading+.panel-collapse>.panel-body {
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 10px;
+ }
