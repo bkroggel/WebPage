@@ -449,7 +449,7 @@ li.active a {
   text-transform: lowercase;
   color: rgb(155,155,155);
   margin-top: 12px;
-  font-size: 17px;
+  font-size: 23px;
   text-align: left;
 }
 
@@ -467,7 +467,6 @@ li.active a {
 
   #welcome-slogan {
     margin-top: 21px;
-    font-size: 23px;
   }
 }
 
