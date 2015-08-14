@@ -868,7 +868,8 @@ footer {
   color: white;
 }
 
-.close-line .fa-arrow-circle-left {
+.close-line .fa-arrow-circle-left,
+.close-line .fa-chevron-circle-down {
   font-size: 20px;
   vertical-align: sub;
   padding-right: 5px;
@@ -876,7 +877,7 @@ footer {
 
 .scrollable-content {
   margin-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   height: 100%;
   overflow: scroll;
 }
@@ -895,7 +896,7 @@ footer {
 .element-reference a,
 .element-reference li {
   color: rgb(87, 88, 91);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .element-reference .fa-github {
@@ -910,7 +911,7 @@ li.head {
 
 .panel-default>.panel-heading {
   background: none;
-  padding: 0 0 10px;
+  padding: 0;
 }
 
 .panel {
@@ -921,4 +922,5 @@ li.head {
  .panel-group .panel-heading+.panel-collapse>.panel-body {
   border: 1px solid rgb(155, 155, 155);
   border-radius: 10px;
+  margin-top: 10px;
  }
