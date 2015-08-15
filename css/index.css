@@ -681,6 +681,16 @@ li.active a {
     display: table;
   }
 
+  @media (min-width: 992px) {
+    .location--column {
+      margin-bottom: -88px; /* allows to stop anchor as soon as location is hidden by the navbar */
+    }
+
+    #location-row {
+      margin-bottom: -88px; /* allows to stop anchor as soon as location is hidden by the navbar */
+    }
+  }
+
   .location__text {
     display: table-cell;
     vertical-align: middle;
