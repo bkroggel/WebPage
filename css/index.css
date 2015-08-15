@@ -51,6 +51,10 @@ h6 {
   color: rgba(0,0,0,0.75);
 }
 
+h1 {
+  margin-top: 0px;
+}
+
 .section--list a {
   line-height: 3em;
   color: white;
@@ -713,7 +717,6 @@ li.active a {
 .team__header {
   width: 90%;
   margin: 0 auto;
-  padding-top: 25px;
 }
 
 .team__header h1 {
