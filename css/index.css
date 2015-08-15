@@ -572,7 +572,7 @@ li.active a {
 
 .format__text {
   width: 90%;
-  margin: 0 auto;
+  margin: 70px auto 0;
 }
 
 .format__text h1 {
@@ -613,6 +613,7 @@ li.active a {
     vertical-align: middle;
     padding-right: 10%;
     padding-left: 10%;
+    margin-top: 0;
   }
 
   #second-format-column {
@@ -658,7 +659,7 @@ li.active a {
 
 .location__text {
   width: 90%;
-  margin: 0 auto;
+  margin: 70px auto 0;
 }
 
 .location__text h1 {
@@ -705,6 +706,7 @@ li.active a {
     vertical-align: middle;
     padding-right: 10%;
     padding-left: 10%;
+    margin-top: 0px;
   }
 
   #first-location-column {
