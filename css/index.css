@@ -959,10 +959,11 @@ li.head {
 
 .reference-row {
   display: table;
+  width: 100%;
 }
 
 .reference-icon-section {
-  width: 6%;
+  width: 3%;
   height: 40px;
   float: left;
   display: table;
@@ -975,7 +976,7 @@ li.head {
 }
 
 .reference-text-section {
-  width: 94%;
+  width: 92%;
   float: left;
   display: table;
   height: 40px;
