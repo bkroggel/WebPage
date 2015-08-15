@@ -123,7 +123,13 @@ a:focus {
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
 .anchor {
-  padding-top: 90px;
+  padding-top: 60px;
+}
+
+@media (min-width: 992px) {
+  .anchor {
+    padding-top: 190px;
+  }
 }
 
 /* ==========================================================================
@@ -716,7 +722,7 @@ li.active a {
 
 .team__header {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto;h
 }
 
 .team__header h1 {
