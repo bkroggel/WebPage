@@ -371,7 +371,8 @@ li.active a {
   background: url(../img/header_background_6.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 150px;
-  height: 110vh;
+  height: 100%;
+  min-height: 110vh;
 }
 
 .header button {

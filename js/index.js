@@ -119,4 +119,10 @@ $(document).ready(function(){
         $('html').css({ overflow: '' });
     });
   // end document ready
+
+  //prevents chrome mobile from jumping around because of the resize effect (just a workaround by far not perfect)
+  //https://code.google.com/p/chromium/issues/detail?id=428132#c27
+    var $header = $('.header');
+    var h = window.innerHeight;
+    $header.css('min-height', h);
 });
