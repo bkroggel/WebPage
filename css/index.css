@@ -976,9 +976,11 @@ footer {
 }
 
 .element-reference a,
-.element-reference li {
+.element-reference li,
+.element-reference li p {
   color: rgb(87, 88, 91);
   font-size: 12px;
+  margin-bottom: 0px;
 }
 
 .element-reference .fa-github {
