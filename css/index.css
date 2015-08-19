@@ -51,6 +51,10 @@ h6 {
   color: rgba(0,0,0,0.75);
 }
 
+h1 {
+  margin-top: 0px;
+}
+
 .section--list a {
   line-height: 3em;
   color: white;
@@ -71,7 +75,8 @@ footer p,
 footer a,
 footer a:hover,
 .sidebar a,
-.sidebar a:hover {
+.sidebar a:hover,
+.reference-row p {
   color: white;
   text-decoration: none;
 }
@@ -118,7 +123,13 @@ a:focus {
 /* 0.2. TYPE ELEMENT
    ========================================================================== */
 .anchor {
-  padding-top: 90px;
+  padding-top: 60px;
+}
+
+@media (min-width: 992px) {
+  .anchor {
+    padding-top: 190px;
+  }
 }
 
 .numbr {
@@ -234,7 +245,7 @@ body {
   color: rgb(155, 155, 155);
   margin: 0 0 0 20px;
   text-transform: lowercase;
-  font-size: 0.8em;
+  font-size: 1em;
   letter-spacing: 0.1em;
 }
 
@@ -370,10 +381,11 @@ li.active a {
 
 .header {
   /*background: url(../img/IMG_6176.jpg) center no-repeat;*/
-  background: url(../img/header_background_6.jpg) center no-repeat;
+  background: url(../img/header_background_7.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 150px;
-  height: 110vh;
+  height: 100%;
+  min-height: 110vh;
 }
 
 .header button {
@@ -462,7 +474,7 @@ li.active a {
   text-transform: lowercase;
   color: rgb(155,155,155);
   margin-top: 12px;
-  font-size: 17px;
+  font-size: 23px;
   text-align: left;
 }
 
@@ -480,7 +492,6 @@ li.active a {
 
   #welcome-slogan {
     margin-top: 21px;
-    font-size: 23px;
   }
 }
 
@@ -576,7 +587,7 @@ li.active a {
 
 .format__text {
   width: 90%;
-  margin: 0 auto;
+  margin: 70px auto 0;
 }
 
 .format__text h1 {
@@ -617,6 +628,7 @@ li.active a {
     vertical-align: middle;
     padding-right: 10%;
     padding-left: 10%;
+    margin-top: 0;
   }
 
   #second-format-column {
@@ -631,7 +643,6 @@ li.active a {
 .location {
   width: 100%;
   margin: 0 auto;
-  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -663,7 +674,7 @@ li.active a {
 
 .location__text {
   width: 90%;
-  margin: 0 auto;
+  margin: 70px auto 0;
 }
 
 .location__text h1 {
@@ -695,11 +706,22 @@ li.active a {
     display: table;
   }
 
+  @media (min-width: 992px) {
+    .location--column {
+      margin-bottom: -88px; /* allows to stop anchor as soon as location is hidden by the navbar */
+    }
+
+    #location-row {
+      margin-bottom: -88px; /* allows to stop anchor as soon as location is hidden by the navbar */
+    }
+  }
+
   .location__text {
     display: table-cell;
     vertical-align: middle;
     padding-right: 10%;
     padding-left: 10%;
+    margin-top: 0px;
   }
 
   #first-location-column {
@@ -716,8 +738,7 @@ li.active a {
 
 .team__header {
   width: 90%;
-  margin: 0 auto;
-  padding-top: 25px;
+  margin: 0 auto;h
 }
 
 .team__header h1 {
@@ -766,9 +787,12 @@ li.active a {
   /*margin-top: 25px;*/
 }
 
+.team-image {
+  margin-bottom: 25px;
+}
+
 @media (min-width: 992px) {
   .team {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 
@@ -891,10 +915,13 @@ footer {
   color: white;
 }
 
+.close-line .fa-arrow-circle-left {
+  vertical-align: sub;
+}
+
 .close-line .fa-arrow-circle-left,
 .close-line .fa-chevron-circle-down {
   font-size: 20px;
-  vertical-align: sub;
   padding-right: 5px;
 }
 
@@ -908,6 +935,23 @@ footer {
 .impressum p {
   color: rgb(87, 88, 91);
   font-size: 12px;
+}
+
+.impressum h1 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.impressum h2 {
+  font-size: 12px;
+  font-style: oblique;
+  margin: 3px 0 20px;
+}
+
+.impressum h3 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .element-reference ul {
@@ -930,6 +974,42 @@ li.head {
   color: black;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.reference-row {
+  display: table;
+  width: 100%;
+}
+
+.reference-icon-section {
+  width: 3%;
+  height: 40px;
+  float: left;
+  display: table;
+  vertical-align: middle;
+}
+
+.reference-icon-section span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.reference-text-section {
+  width: 92%;
+  float: left;
+  display: table;
+  height: 40px;
+}
+
+.reference-text-section p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.close-line .fa-chevron-circle-down {
+  vertical-align: middle;
 }
 
 .panel-default>.panel-heading {
