@@ -138,12 +138,27 @@ a:focus {
 }
 
 .numbr p {
-  font-size: 30vw;
+  font-size: 60vw;
   color: rgba(240, 97, 56, 0.3);
   position: absolute;
   left: -5vw;
-  top: -9vw;
+  top: -20vw;
 }
+
+@media (min-width: 765px) {
+  .numbr p {
+    font-size: 40vw;
+    top: -14vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .numbr p {
+    font-size: 30vw;
+    top: -10vw;
+  }
+}
+
 
 /* ==========================================================================
    1. HEADER
@@ -385,7 +400,7 @@ li.active a {
   background-size: cover;
   padding-bottom: 150px;
   height: 100%;
-  min-height: 110vh;
+  min-height: 120vh;
 }
 
 .header button {
