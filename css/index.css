@@ -17,10 +17,13 @@
       - 1.3. HEADER
  *  2. ABOUT THE CONFERENCE
     3. TARGET GROUPS & GOALS
-    4. FORMAT
-    5. LOCATION
-    6. TEAM
-    7. FOOTER 
+    4. TILES
+      - 4.1. FORMAT
+      - 4.2. LOCATION
+      - 4.3. CALL FOR PAPERS
+    5. TEAM
+    6. FOOTER 
+    7. SIDEBAR
  */
 
 /* ==========================================================================
@@ -566,23 +569,22 @@ li.active a {
 }
 
 /* ==========================================================================
-   4. FORMAT
+   4. TILES
    ========================================================================== */
-.format {
+.tiles {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
 }
 
-.format--image {
-  background: url("../img/seminarraum.jpg") center;
+.tiles--image {
   background-size: cover;
   height: 150px;
   display: table;
   width: 100%;
 }
 
-.format--image h1 {
+.tiles--image h1 {
   color: white;
   text-align: center;
   margin-top: 0px;
@@ -591,21 +593,21 @@ li.active a {
   vertical-align: middle;
 }
 
-.format__main {
+.tiles__main {
   text-align: left;
 }
 
-.format--column {
+.tiles--column {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.format__text {
+.tiles__text {
   width: 90%;
   margin: 70px auto 0;
 }
 
-.format__text h1 {
+.tiles__text h1 {
   text-transform: lowercase;
   margin-bottom: 35px;
   font-size: 30px;
@@ -613,18 +615,17 @@ li.active a {
 }
 
 @media (min-width: 992px) {
-  .format {
+  .tiles {
     width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
   }
 
-  .format--image {
-    /*height: 534px;*/
+  .tiles--image {
     height: 100vh;
   }
 
-  .format__main {
+  .tiles__main {
     text-align: justify;
   }
 
@@ -632,120 +633,67 @@ li.active a {
     height: 100vh;
   }
 
-  .format--column {
+  .tiles--column {
     /*height: 534px;*/
     height: 100vh;
     display: table;
   }
 
-  .format__text {
+  .tiles__text {
     display: table-cell;
     vertical-align: middle;
     padding-right: 10%;
     padding-left: 10%;
     margin-top: 0;
   }
+}
 
+/* 4.1. FORMAT
+   ========================================================================== */
+.format--image {
+  background: url("../img/seminarraum.jpg") center;
+}
+
+@media (min-width: 992px) {
   #second-format-column {
     padding: 0px 80px;
   }
 }
 
-
-/* ==========================================================================
-   5. LOCATION
+/* 4.2. LOCATION
    ========================================================================== */
-.location {
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 20px;
-}
-
 .location--image {
   background: url("../img/IMG_7050.jpg") center;
-  background-size: cover;
-  height: 150px;
-  display: table;
-  width: 100%;
-}
-
-.location--image h1 {
-  color: white;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.location__main {
-  text-align: left;
-}
-
-.location--column {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.location__text {
-  width: 90%;
-  margin: 70px auto 0;
-}
-
-.location__text h1 {
-  text-transform: lowercase;
-  margin-bottom: 35px;
-  font-size: 30px;
-  color: rgb(155,155,155);
 }
 
 @media (min-width: 992px) {
-  .location {
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .location__main {
-    text-align: justify;
-  }
-
-  .location--image {
-    /*height: 534px;*/
-    height: 100vh;
-  }
-
-  .location--column {
-    /*height: 534px;*/
-    height: 100vh;
-    display: table;
-  }
-
-  @media (min-width: 992px) {
-    .location--column {
-      margin-bottom: -88px; /* allows to stop anchor as soon as location is hidden by the navbar */
-    }
-
-    #location-row {
-      margin-bottom: -88px; /* allows to stop anchor as soon as location is hidden by the navbar */
-    }
-  }
-
-  .location__text {
-    display: table-cell;
-    vertical-align: middle;
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-top: 0px;
-  }
-
   #first-location-column {
     padding: 0px 80px;
   }
 }
 
+/* 4.3. CALL FOR PAPERS
+   ========================================================================== */
+.papers--image {
+  background: url("../img/IMG_6210.jpg") center;
+}
+
+@media (min-width: 992px) {
+  #second-papers-column {
+    padding: 0px 80px;
+  }
+
+  .papers--column {
+    margin-bottom: -88px; /* allows to stop anchor as soon as papers is hidden by the navbar */
+  }
+
+  #papers-row {
+    margin-bottom: -88px; /* allows to stop anchor as soon as papers is hidden by the navbar */
+  }
+}
+
 /* ==========================================================================
-   6. TEAM
+   5. TEAM
    ========================================================================== */
 .team {
   padding-bottom: 30px;
@@ -824,7 +772,7 @@ li.active a {
   }
 }
 /* ==========================================================================
-   7. FOOTER
+   6. FOOTER
    ========================================================================== */
 footer {
   background-color: rgb(87, 88, 91);
@@ -883,7 +831,7 @@ footer {
 }
 
 /* ==========================================================================
-   8. Sidebar
+   7. SIDEBAR
    ========================================================================== */
 
 .sidebar.right {
