@@ -604,7 +604,8 @@ li.active a {
 
 .tiles__text {
   width: 90%;
-  margin: 70px auto 0;
+  margin: 30px auto 0;
+  padding-bottom: 70px;
 }
 
 .tiles__text h1 {
@@ -645,6 +646,7 @@ li.active a {
     padding-right: 10%;
     padding-left: 10%;
     margin-top: 0;
+    padding-bottom: 0px;
   }
 }
 
@@ -666,9 +668,14 @@ li.active a {
   background: url("../img/IMG_7050.jpg") center;
 }
 
+#first-location-column {
+  min-height: 375px;
+}
+
 @media (min-width: 992px) {
   #first-location-column {
     padding: 0px 80px;
+    min-height: 0;
   }
 }
 
