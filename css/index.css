@@ -219,7 +219,7 @@ body {
   left: auto;
 }
 
-.dropdown-menu {
+/*.dropdown-menu {
   border-radius: 0;
   box-shadow: none;
   border: none;
@@ -227,7 +227,7 @@ body {
   background-color: rgb(87, 88, 91);
   color: rgb(155, 155, 155);
   padding: 15px 0;
-}
+}*/
 
 .cbp-af-header .logo {
   position: relative;
@@ -295,7 +295,7 @@ li.active a {
   color: rgb(240, 97, 56) !important;
 }
 
-.dropdown-menu li a{
+/*.dropdown-menu li a{
   line-height: 28px !important;
 }
 
@@ -305,7 +305,7 @@ li.active a {
 
 .dropdown {
   line-height: 0px;
-}
+}*/
 
 .nav .open>a,
 .nav .open>a:focus,
