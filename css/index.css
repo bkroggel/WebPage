@@ -817,12 +817,19 @@ footer {
   background: url(../img/zu_logo_white.png) no-repeat center;
   background-size: cover;
   width: 115px;
-  margin-right: 30px;
+  margin-right: 16px;
 }
 
 .codecats-logo{
   background:url(../img/codecats-logo.png);
   width: 30px;
+  background-size: cover;
+  margin-right: 16px;
+}
+
+.ihb-logo {
+  background: url(../img/ihb-logo-line.png);
+  width: 90px;
   background-size: cover;
 }
 
