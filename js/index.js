@@ -10,6 +10,7 @@ $(document).ready(function(){
 
     var docElem = document.documentElement,
       header = document.querySelector( '.cbp-af-header' ),
+      register = document.querySelector( '.nav--register' ),
       didScroll = false,
       changeHeaderOn = 100;
 
@@ -26,9 +27,11 @@ $(document).ready(function(){
       var sy = scrollY();
       if ( sy >= changeHeaderOn ) {
         classie.add( header, 'cbp-af-header-shrink' );
+        register.setAttribute("class", "nav--register-active");
       }
       else {
         classie.remove( header, 'cbp-af-header-shrink' );
+        register.setAttribute("class", "nav--register");
       }
       didScroll = false;
     }
