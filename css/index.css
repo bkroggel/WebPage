@@ -516,6 +516,11 @@ li.active a {
   text-align: left;
 }
 
+.registration-list {
+  display: block;
+  text-align: left;
+}
+
 .headword--colour {
   color: rgba(240, 97, 56, 0.8);
 }
