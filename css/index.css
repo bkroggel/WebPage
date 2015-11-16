@@ -848,7 +848,7 @@ footer {
 
 .info-logos {
   height: 30px;
-  margin: 30px 0;
+  margin: 17px 16px 17px 0;
   overflow: hidden;
   float: left;
 }
@@ -857,19 +857,23 @@ footer {
   background: url(../img/zu_logo_white.png) no-repeat center;
   background-size: cover;
   width: 115px;
-  margin-right: 16px;
 }
 
 .codecats-logo{
   background:url(../img/codecats-logo.png);
   width: 30px;
   background-size: cover;
-  margin-right: 16px;
 }
 
 .ihb-logo {
   background: url(../img/ihb-logo-line.png);
   width: 90px;
+  background-size: cover;
+}
+
+.iap-logo {
+  background: url(../img/iap-logo.png);
+  width: 30px;
   background-size: cover;
 }
 
