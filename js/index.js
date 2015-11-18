@@ -91,9 +91,9 @@ $(document).ready(function(){
           autoPlay: 5000, //Set AutoPlay to 3 seconds
           
           // navigation: true,
-          items : 4,
-          itemsDesktop : [1199,3],
-          itemsDesktopSmall : [979,3]
+          items : 1,
+          itemsDesktop : [1199,1],
+          itemsDesktopSmall : [979,1]
       });
     });
 
