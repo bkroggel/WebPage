@@ -755,10 +755,6 @@ li.active a {
   display: block;
 }
 
-.team .tiles__text {
-  padding-top: 100px;
-}
-
 .team__header {
   width: 90%;
   margin: 0 auto;
@@ -817,6 +813,10 @@ li.active a {
 
   .team__header {
     width: 80%;
+  }
+
+  .team .tiles__text {
+    padding-top: 100px;
   }
 
   .team-item {
