@@ -755,6 +755,10 @@ li.active a {
   display: block;
 }
 
+.team .tiles__text {
+  padding-top: 100px;
+}
+
 .team__header {
   width: 90%;
   margin: 0 auto;
@@ -784,21 +788,17 @@ li.active a {
 }
 
 .team-item h1 {
-  /*margin-top: 25px;*/
-  /*padding-top: 25px;*/
   text-align: left;
   font-size: 1.3em;
-  /*border-top: 1px solid rgb(246,97,56);*/
+  margin-bottom: 0px;
 }
 
 .team-item h2 {
   margin-top: 10px;
   margin-bottom: 10px;
-  /*padding-bottom: 25px;*/
   text-align: left;
   font-size: 0.8em;
   text-transform: uppercase;
-  /*border-bottom: 1px solid rgb(246,97,56);*/
 }
 
 .owl-theme .owl-controls .owl-page span {

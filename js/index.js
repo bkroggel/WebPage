@@ -92,8 +92,10 @@ $(document).ready(function(){
           
           // navigation: true,
           items : 1,
-          itemsDesktop : [1199,1],
-          itemsDesktopSmall : [979,1]
+          itemsDesktop : [992,3],
+          itemsTablet : [768,2],
+          itemsMobile : [560,1]
+         
       });
     });
 
