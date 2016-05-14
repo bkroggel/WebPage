@@ -2,7 +2,7 @@
  * Description: CSS Styles for the index.html, the webpage of the PPE-Conference 2015 at Zeppelin University.
  * Version: 0.0.1
  * Init update: 2015/07/13
- * Last update: 2015/07/16
+ * Last update: 2016/05/15
  * Author: bkroggel <b.kroggel@zeppelin-university.net>
            tswegner <t.wegner@zeppelin-university.net>
  *
@@ -184,13 +184,10 @@ body {
   z-index: 10000;
   height: 230px;
   /*overflow: hidden;*/
-  -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;
-  transition: height 0.3s;
-  -webkit-transition: background .3s;
-  -moz-transition: background .3s;
-  -o-transition: background .3s;
-  transition: background .3s;
+  -webkit-transition: background .3s, height .3s .3s;
+  -moz-transition: background .3s, height .3s .3s;
+  -o-transition: background .3s, height .3s .3s;
+  transition: background .3s, height .3s .3s;
 }
 
 .cbp-af-header .cbp-af-inner {
@@ -280,10 +277,10 @@ body {
 .cbp-af-header.cbp-af-header-shrink {
   height: 90px;
   background: rgba(255, 255, 255, 1);
-  -webkit-transition: background .5s;
-  -moz-transition: background .3s;
-  -o-transition: background .3s;
-  transition: background .3s;
+  -webkit-transition: height .3s, background .3s .3s;
+  -moz-transition: height .3s, background .3s .3s;
+  -o-transition: height .3s, background .3s .3s;
+  transition: height .3s, background .3s .3s;
 }
 
 .cbp-af-header.cbp-af-header-shrink nav {
